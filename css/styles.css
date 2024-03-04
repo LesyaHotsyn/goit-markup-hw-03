@@ -25,6 +25,7 @@ ol {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style: none;
 }
 
 a {
@@ -46,8 +47,14 @@ a:focus {
   color: #404bbf;
 }
 
-ul {
-  list-style: none;
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .logo-link {
@@ -58,14 +65,37 @@ ul {
   color: #4d5ae5;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-right: 76px;
 }
 
 .logo-link:hover {
   color: #404bbf;
 }
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .header-logo {
   color: #2e2f42;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.header-ul {
+  display: flex;
+  gap: 40px;
+  padding: 24px 0;
 }
 
 .header-nav-item {
@@ -87,6 +117,11 @@ ul {
   line-height: 24px;
   font-style: normal;
   letter-spacing: 0.02em;
+}
+
+.address-ul {
+  display: flex;
+  flex-direction: row;
 }
 
 .address-item {
@@ -131,8 +166,17 @@ ul {
   color: #2e2f42;
 }
 
-.feature-none {
-  display: none;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .feature-title {
@@ -171,6 +215,15 @@ ul {
   color: #2e2f42;
 }
 
+.our-team-ul {
+  display: flex;
+  gap: 24px;
+}
+
+.our-team-ul:first-child {
+  width: calc((100%-72px) / 4);
+}
+
 .our-team-li {
   text-align: center;
   background-color: #ffffff;
@@ -188,8 +241,8 @@ ul {
   color: #434455;
 }
 
-/* .portfolio {
-} */
+.Portfolio-ul {
+}
 
 .portfolio-title {
   text-align: center;
@@ -199,8 +252,8 @@ ul {
   text-transform: capitalize;
 }
 
-/* .portfolio-li {
-} */
+/* .portfolio-li { */
+/* } */
 
 .portfolio-subtitle {
   font-weight: 500;
@@ -217,6 +270,8 @@ ul {
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -227,4 +282,6 @@ ul {
   color: #f4f4fd;
   font-size: 16px;
   line-height: 24px;
+  max-width: 264px;
+  margin-top: 16px;
 }
