@@ -289,8 +289,11 @@ img {
 .portfolio-ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
+  gap: 10px;
 }
+
+/* .portfolio-item {
+} */
 
 .portfolio-subtitle {
   font-weight: 500;
@@ -321,4 +324,8 @@ img {
   line-height: 24px;
   max-width: 264px;
   margin-top: 16px;
+}
+
+footer-link {
+  margin-bottom: 16px;
 }
