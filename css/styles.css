@@ -289,7 +289,7 @@ img {
 .portfolio-ul {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 8px;
 }
 
 .portfolio-subtitle {
