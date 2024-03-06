@@ -254,14 +254,14 @@ img {
   gap: 24px;
 }
 
-.our-team-ul:first-child {
-  border-radius: 0px 0px 4px 4px;
-  width: calc((100%-72px) / 4);
-}
+/* .our-team-ul:first-child {
+} */
 
 .our-team-li {
   text-align: center;
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100%-72px) / 4);
 }
 
 .our-team-all {
